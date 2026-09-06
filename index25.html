@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS object Fit and position</title>
+    <style>
+        .container{
+            height: 634px;
+            width: 688px;
+            border: 2px solid black;
+            background-color: rgb(43, 164, 164);
+            background-position: center;
+
+
+            background-image: url("https://img.magnific.com/premium-photo/scenic-meadow-deer-silhouette-symbolizes-wildlife-conservation_795881-38678.jpg?semt=ais_hybrid&w=740&q=80");
+        }
+
+        img{
+            width: 466px;
+            height: 488px;
+            object-fit: cover;
+            /* object-position: top right; */
+            object-position: bottom right;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="conatiner">
+        <img src="https://img.magnific.com/premium-photo/scenic-meadow-deer-silhouette-symbolizes-wildlife-conservation_795881-38678.jpg?semt=ais_hybrid&w=740&q=80" alt="">
+    </div>
+    
+</body>
+</html>
