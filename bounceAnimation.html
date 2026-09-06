@@ -14,7 +14,10 @@
             position: absolute;
             bottom: 0;
             left: 0; 
+            animation: animateX 3s linear infinite, animateY 3s ease-out infinite alternate;
         }
+    
+        
 
         .container {
             position: relative;
@@ -22,19 +25,27 @@
             width: 80vw;
             background-color: blue;
         }
-        @keyframes Abhijeetanimation {
+        @keyframes animateX {
             from{
-                   background-color: red;
+                left: 0;
+
             }
             to{
-                background-color: yellow; 
+                left: 100%;
             }
         }
+            @keyframes animateY{
+                from{
+                    bottom: 0;
+                }
+                to{
+                    bottom: 100%;
+                }
+            }
+            
+        
 
-        @keyframes animation2 {
-            
-            
-        }
+        
  
     </style>
 </head>
