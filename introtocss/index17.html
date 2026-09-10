@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on css selectors</title>
+    <style>
+/* .box:first-child{
+    background-color: red; */
+/* }
+    .box::first-line{
+        color: yellow; */
+    /* } */
+
+    .boxes *{
+        color: blue;
+        border: 2px solid black;
+    }
+
+    p,a , .box, [data-color="primary"]{
+        padding-top: 45px;
+    }
+    .box:nth-last-child(2){
+        background-color: red;
+    }
+    .box:nth-child(2){
+        background-color: yellow;
+    }
+    .boxes::before{
+        content: "Hey I am a before element";
+        color:blue;
+    
+    }
+    .boxes::after{
+        content: "sigma courses is also good";
+        color:red;
+    }
+
+    ::selection{
+        color: aqua;
+        background-color: black
+
+    }
+    .box::first-letter{
+        color: peru;
+        font-size: 34px;
+    }
+
+    [data-color="primary"]{
+        padding-top: 45px;
+    }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box" data-color="primary">
+            Hey I am in a box
+        </div>
+        <div class="box">Hey I am in a box</div>
+        <div class="box">I am also in a box</div>
+        <div class="box">I am the third box</div>
+        <input type="text" placeholder="Type your name here">
+    </div>
+</body>
+</html>
