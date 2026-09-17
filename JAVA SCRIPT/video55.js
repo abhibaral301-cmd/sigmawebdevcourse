@@ -3,7 +3,7 @@ console.log("Hey this is tutorial 55");
 var a = 5;
 // a = a + 1
 let b = 6;
-let c = "Harry";
+let c = "Abhijeet";
 let _a = "Shubham";
 // var 55a = "Rohan"; // Not Allowed
 
@@ -18,7 +18,7 @@ console.log(a)
 // a1 = a1 + 1; // Not Allowed because a1 is constant
 
 
-let x = "Harry bhai";
+let x = "Hey Abhi";
 let y = 22;
 let z = 3.55;
 const p = true;
@@ -30,7 +30,7 @@ console.log(typeof x, typeof y, typeof z, typeof p, typeof q, typeof r)
 
 
 let o = {
-    "name": "Harry",
+    "name": "Abhijeet",
     "job code": 5600,
     "is_handsome": true
 }
