@@ -14,7 +14,7 @@ let a = 1;
 //     role: "Programmer",
 //     company: ""
 // }
- 
+
 // for (const key in obj) {  
 //         console.log(key)
 // }
@@ -33,4 +33,4 @@ let i = 10;
 do {
     console.log(i)
     i++;
-} while (i<6);
+} while (i < 6);
